@@ -18,14 +18,14 @@ example ([super super happy face](https://www.rolimons.com/item/494291269)):
 }
 ```
 
-# rolimons:getItemsAsync(): {item}
+# rolimons:getItemsAsync()
 forces item cache to update, and returns all item data:
 ```luau
 local items = rolimons:getItemsAsync()
 print(items[1]) --> item_data
 ```
 
-# rolimons:getItems(): {item}
+# rolimons:getItems()
 returns the list of items (which can also be directly accessed with `rolimons.items`)
 
 if the item data cache hasn't been updated, it will automatically do this itself (and will yield the thread until completion)
@@ -34,8 +34,8 @@ local items = rolimons:getItems()
 print(items[1]) --> item_data
 ```
 
-# rolimons:getItemByProperty(propertyName, propertyValue): item
-searches for an item with the 'propertyName' that equals the 'propertyValue'
+# rolimons:getItemByProperty(propertyName, propertyValue)
+searches for (and returns) an item with the 'propertyName' that equals the 'propertyValue'
 
 if the item data cache hasn't been updated, it will automatically do this itself (and will yield the thread until completion)
 
@@ -53,4 +53,14 @@ there are 4 valid item 'propertyNames':
 ```luau
 local item = rolimons:getItemByProperty("name", "Super Super Happy Face")
 print(item) --> item_data
+```
+
+# rolimons:getMostValuableItems(limit)
+searches for items with the highest rap, which will stop searching once the amount of items hits the input limit
+
+if there is no passed limit, it will automatically default to 10
+```luau
+local items = rolimons:getMostValuableItems(100)
+print(#items) --> 100
+print(items[1]) --> item_data
 ```
