@@ -1,4 +1,4 @@
-# table-of-conents
+# table of contents
 - [item format](#item_data-format)
 - [rolimons:getItemsAsync()](#rolimonsgetitemsasync)
 - [rolimons:getItems()](#rolimonsgetitems)
