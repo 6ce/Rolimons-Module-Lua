@@ -50,6 +50,8 @@ there are 4 valid item 'propertyNames':
 	"id"
 }
 ```
+
+if you pass an invalid property, the module will error
 ```luau
 local item = rolimons:getItemByProperty("name", "Super Super Happy Face")
 print(item) --> item_data
