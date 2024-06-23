@@ -105,7 +105,7 @@ searches for (and returns) an item with the input 'id'
 
 if there is no input id, the module will error
 ```luau
-local item = rolimons:getItemById("sshf")
+local item = rolimons:getItemById(494291269)
 print(item) --> item_data
 ```
 
