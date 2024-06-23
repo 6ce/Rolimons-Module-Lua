@@ -1,5 +1,5 @@
 # Rolimons Module
-Roblox module for interacting with limiteds thru rolimons.com
+Roblox module for interacting with limiteds with rolimons
 
 # Info
 [GitHub](https://github.com/6ce/Rolimons-Lua) | [Documentation](https://github.com/6ce/Rolimons-Lua/blob/main/DOCS.md)
