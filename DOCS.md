@@ -56,11 +56,19 @@ print(item) --> item_data
 ```
 
 # rolimons:getMostValuableItems(limit)
-searches for items with the highest rap, which will stop searching once the amount of items hits the input limit
+searches for (and returns) items with the highest rap, which will stop searching once the amount of items hits the input 'limit'
 
 if there is no passed limit, it will default to 10
 ```luau
-local items = rolimons:getMostValuableItems(100)
+local items = rolimons:getMostValuableItems(100) -- gets top 100 most valuable items
 print(#items) --> 100
-print(items[1]) --> item_data
+```
+
+# rolimons:getItemsWorthMoreThan(minimum)
+searches for (and returns) items with a rap that is higher than the input 'minimum'
+
+if there is no input minimum, the module will error
+```luau
+local items = rolimons:getItemsWorthMoreThan(100000) -- gets items worth more than 100k rap
+print(#items) --> however many are worth more than that
 ```
