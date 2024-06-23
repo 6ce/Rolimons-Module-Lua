@@ -1,9 +1,9 @@
 local httpService = game:GetService("HttpService")
 
 local dataFormat = {
-	["name"] = 1;
-	["abbreviation"] = 2;
-	["rap"] = 3;
+	name = 1;
+	abbreviation = 2;
+	rap = 3;
 }
 local validProperties = {
 	"name";
