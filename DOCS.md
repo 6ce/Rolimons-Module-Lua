@@ -34,4 +34,23 @@ local items = rolimons:getItems()
 print(items[1]) --> item_data
 ```
 
-# rolimons:getItemByProperty(propertyName: string, propertyValue: string): item
+# rolimons:getItemByProperty(propertyName, propertyValue): item
+searches for an item with the 'propertyName' that equals the 'propertyValue'
+
+if the item data cache hasn't been updated, it will automatically do this itself (and will yield the thread until completion)
+
+if the 'propertyValue' is a string, the case does not matter (you can pass either "SSHF" or "sshf" and it will return the same thing)
+
+there are 4 valid item 'propertyNames':
+```luau
+{
+	"name"
+	"abbreviation"
+	"rap"
+	"id"
+}
+```
+```luau
+local item = rolimons:getItemByProperty("name", "Super Super Happy Face")
+print(item) --> item_data
+```
