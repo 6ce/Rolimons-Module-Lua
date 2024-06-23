@@ -1,5 +1,5 @@
 # table-of-conents
-- [item formatting](#item_data-format)
+- [item format](#item_data-format)
 - [rolimons:getItemsAsync()](#rolimonsgetitemsasync)
 - [rolimons:getItems()](#rolimonsgetitems)
 - [rolimons:getItemByProperty()](#rolimonsgetitembypropertypropertyname-propertyvalue)
