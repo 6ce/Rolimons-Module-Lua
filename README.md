@@ -30,10 +30,10 @@ total limiteds worth less than 100k rap: 2243
 total limiteds worth more than 100k rap: 259
 
 sshf data:
-abbreviation SSHF string
-rap 282246 number
-name Super Super Happy Face string
-id 494291269 number
+abbreviation SSHF
+rap 282246
+name Super Super Happy Face
+id 494291269
 ```
 <details>
 <summary>Top 100 most valuable items:</summary>
