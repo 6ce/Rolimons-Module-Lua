@@ -8,6 +8,9 @@ Roblox module for interacting with limiteds thru rolimons.com
 ```luau
 local rolimons = require(path.to.module) -- path to the rolimons module
 
+local limiteds = rolimons:getItemsAsync() -- updates 'item cache' and returns list of limiteds
+print(`total limiteds: {#limiteds}`) -- outputs number of limiteds
+
 local worthLessThan = rolimons:getItemsWorthLessThan(100000) -- gets all items with less than 100k rap
 print(`total limiteds worth less than 100k rap: {#worthLessThan}`) -- outputs number of those items
 
@@ -29,6 +32,7 @@ end
 
 Output (as of 06/22/2024):
 ```
+total limiteds: 2503
 total limiteds worth less than 100k rap: 2243
 total limiteds worth more than 100k rap: 259
 
