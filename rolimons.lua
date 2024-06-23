@@ -160,7 +160,7 @@ function rolimons:getItemByName(name: string): {id: number, name: string, abbrev
 end
 
 function rolimons:getItemById(id: string): {id: number, name: string, abbreviation: string, rap: number}?
-	assert(typeof(id) == "string", "'id' must be a string")
+	assert(typeof(id) == "number", "'id' must be a number")
 	return rolimons:getItemByProperty("id", id)
 end
 
