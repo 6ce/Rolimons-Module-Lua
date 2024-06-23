@@ -70,5 +70,5 @@ searches for (and returns) items with a rap that is higher than the input 'minim
 if there is no input minimum, the module will error
 ```luau
 local items = rolimons:getItemsWorthMoreThan(100000) -- gets items worth more than 100k rap
-print(#items) --> however many are worth more than that
+print(#items) --> outputs however many are worth more than that
 ```
