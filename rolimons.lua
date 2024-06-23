@@ -133,20 +133,35 @@ function rolimons:getItemsWorthLessThan(maximum: number): {{id: number, name: st
 	return items
 end
 
+function rolimons:getItemsWorth(rap: number): {id: number, name: string, abbreviation: string, rap: number}?
+	assert(typeof(rap) == "number", "'rap' must be a number")
+
+	if not rolimons.updated then
+		rolimons:getItemsAsync()
+	end
+	
+	local items = {}
+	for _, item in next, rolimons.items do
+		if item["rap"] < rap then
+			table.insert(items, item)
+		end
+	end
+	return items
+end
+
 function rolimons:getItemByAbbreviation(abbreviation: string): {id: number, name: string, abbreviation: string, rap: number}?
+	assert(typeof(abbreviation) == "string", "'abbreviation' must be a string")
 	return rolimons:getItemByProperty("abbreviation", abbreviation)
 end
 
 function rolimons:getItemByName(name: string): {id: number, name: string, abbreviation: string, rap: number}?
+	assert(typeof(name) == "string", "'name' must be a string")
 	return rolimons:getItemByProperty("name", name)
 end
 
 function rolimons:getItemById(id: string): {id: number, name: string, abbreviation: string, rap: number}?
+	assert(typeof(id) == "string", "'id' must be a string")
 	return rolimons:getItemByProperty("id", id)
-end
-
-function rolimons:getItemByRap(rap: string): {id: number, name: string, abbreviation: string, rap: number}?
-	return rolimons:getItemByProperty("rap", rap)
 end
 
 return rolimons
