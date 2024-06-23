@@ -146,4 +146,4 @@ Tattletale - 407597 rap
 </details>
 
 # Disclaimer
-Yes I know this was made better and more efficiently (here)[https://github.com/Accutrix/Rolimons]. This was just practice.
+Yes I know this was made better and more efficiently [her](https://github.com/Accutrix/Rolimons). This was just practice.
