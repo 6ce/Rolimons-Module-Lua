@@ -79,5 +79,41 @@ searches for (and returns) items with a rap that is less than the input 'maximum
 if there is no input maximum, the module will error
 ```luau
 local items = rolimons:getItemsWorthLessThan(100000) -- gets items worth less than 100k rap
-print(#items) --> outputs however many are worth more than that
+print(#items) --> outputs however many are worth less than that
+```
+
+# rolimons:getItemsWorth(minimum)
+searches for (and returns) items with a rap that is less than the input 'rap'
+
+if there is no input rap, the module will error
+```luau
+local items = rolimons:getItemsWorth(100000) -- gets items worth exactly 100k rap
+print(#items) --> outputs however many are worth that
+```
+
+# rolimons:getItemByAbbreviation(abbreviation)
+searches for (and returns) an item with the input 'abbreviation'
+
+if there is no input abbreviation, the module will error
+```luau
+local item = rolimons:getItemByAbbreviation("sshf")
+print(item) --> item_data
+```
+
+# rolimons:getItemById(id)
+searches for (and returns) an item with the input 'id'
+
+if there is no input id, the module will error
+```luau
+local item = rolimons:getItemById("sshf")
+print(item) --> item_data
+```
+
+# rolimons:getItemByName(name)
+searches for (and returns) an item with the input 'name'
+
+if there is no input name, the module will error
+```luau
+local item = rolimons:getItemByName("Super Super Happy Face")
+print(item) --> item_data
 ```
