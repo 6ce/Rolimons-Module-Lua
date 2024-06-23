@@ -82,8 +82,8 @@ local items = rolimons:getItemsWorthLessThan(100000) -- gets items worth less th
 print(#items) --> outputs however many are worth less than that
 ```
 
-# rolimons:getItemsWorth(minimum)
-searches for (and returns) items with a rap that is less than the input 'rap'
+# rolimons:getItemsWorth(rap)
+searches for (and returns) items with a rap that is equal to the input 'rap'
 
 if there is no input rap, the module will error
 ```luau
