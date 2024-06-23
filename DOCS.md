@@ -58,7 +58,7 @@ print(item) --> item_data
 # rolimons:getMostValuableItems(limit)
 searches for items with the highest rap, which will stop searching once the amount of items hits the input limit
 
-if there is no passed limit, it will automatically default to 10
+if there is no passed limit, it will default to 10
 ```luau
 local items = rolimons:getMostValuableItems(100)
 print(#items) --> 100
