@@ -2,7 +2,7 @@
 - [item formatting](#item_data-format)
 - [rolimons:getItemsAsync()](#rolimonsgetitemsasync)
 - [rolimons:getItems()](#rolimonsgetitems)
-- [rolimons:getItemByProperty()](##rolimonsgetitembypropertypropertyname-propertyvalue)
+- [rolimons:getItemByProperty()](#rolimonsgetitembypropertypropertyname-propertyvalue)
 - [rolimons:getMostValuableItems()](#rolimonsgetmostvaluableitemslimit)
 - [rolimons:getItemsWorthMoreThan()](#rolimonsgetitemsworthmorethanminimum)
 - [rolimons:getItemsWorthLessThan()](#rolimonsgetitemsworthlessthanmaximum)
