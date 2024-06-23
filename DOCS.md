@@ -23,3 +23,13 @@ forces item cache to update, and returns all item data:
 ```luau
 local items = rolimons:getItemsAsync()
 print(items[1]) --> item_data
+```
+
+# rolimons:getItems()
+returns the list of items (which can also be directly accessed with `rolimons.items`)
+
+if the item data cache hasn't been updated, it will automatically do this itself (and will yield the thread until completion)
+```luau
+local items = rolimons:getItems()
+print(items[1]) --> item_data
+```
