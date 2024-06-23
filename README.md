@@ -33,7 +33,11 @@ abbreviation SSHF string
 rap 282246 number
 name Super Super Happy Face string
 id 494291269 number
-top 100 most valuable items:
+```
+<details>
+<summary>Top 100 most valuable items:</summary>
+	
+```
 Dominus Frigidus - 28059680 rap
 Dominus Astra - 14321557 rap
 Dominus Empyreus - 13577229 rap
@@ -135,3 +139,4 @@ Eyes of Emeraldwrath - 411075 rap
 Viscount of the Federation - 408188 rap
 Tattletale - 407597 rap
 ```
+</details>
