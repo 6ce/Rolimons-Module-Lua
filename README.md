@@ -3,7 +3,7 @@ Roblox module for interacting with limiteds thru rolimons.com
 
 # Usage
 ```luau
-local rolimons = require(path.to.module)
+local rolimons = require(path.to.module) -- path to the rolimons module
 
 local worthLessThan = rolimons:getItemsWorthLessThan(100000) -- gets all items with less than 100k rap
 print(`total limiteds worth less than 100k rap: {#worthLessThan}`) -- outputs number of those items
