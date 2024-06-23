@@ -1,4 +1,4 @@
-# item format
+# 'item_data' format
 each item (limited) is formatted like so:
 ```luau
 {
