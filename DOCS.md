@@ -1,15 +1,15 @@
 # table-of-conents
 - [item formatting](#item_data-format)
-- [rolimons:getItemsAsync()]()
-- [rolimons:getItems()]()
-- [rolimons:getItemByProperty()]()
-- [rolimons:getMostValuableItems()]()
-- [rolimons:getItemsWorthMoreThan()]()
-- [rolimons:getItemsWorthLessThan()]()
-- [rolimons:getItemsWorth()]()
-- [rolimons:getItemByAbbreviation()]()
-- [rolimons:getItemById()]()
-- [rolimons:getItemByName()]()
+- [rolimons:getItemsAsync()](#rolimonsgetitemsasync)
+- [rolimons:getItems()](#rolimonsgetitems)
+- [rolimons:getItemByProperty()](#rolimonsgetitemsbyproperty)
+- [rolimons:getMostValuableItems()](#rolimonsgetmostvaluableitems)
+- [rolimons:getItemsWorthMoreThan()](#rolimonsgetitemsworthmorethan)
+- [rolimons:getItemsWorthLessThan()](#rolimonsgetitemsworthlessthan)
+- [rolimons:getItemsWorth()](#rolimonsgetitemsworth)
+- [rolimons:getItemByAbbreviation()](#rolimonsgetitembyabbreviation)
+- [rolimons:getItemById()](#rolimonsgetitembyid)
+- [rolimons:getItemByName()](#rolimonsgetitembyname)
 
 # 'item_data' format
 each item (limited) is formatted like so:
