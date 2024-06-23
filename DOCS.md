@@ -1,5 +1,14 @@
 # table-of-conents
-[]()
+[rolimons:getItemsAsync()]()
+[rolimons:getItems()]()
+[rolimons:getItemByProperty()]()
+[rolimons:getMostValuableItems()]()
+[rolimons:getItemsWorthMoreThan()]()
+[rolimons:getItemsWorthLessThan()]()
+[rolimons:getItemsWorth()]()
+[rolimons:getItemByAbbreviation()]()
+[rolimons:getItemById()]()
+[rolimons:getItemByName()]()
 
 # 'item_data' format
 each item (limited) is formatted like so:
