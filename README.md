@@ -1,4 +1,4 @@
-# Rolimons-Lua
+# Rolimons Module
 Roblox module for interacting with limiteds thru rolimons.com
 
 # Info
