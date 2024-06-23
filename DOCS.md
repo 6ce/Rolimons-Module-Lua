@@ -72,3 +72,12 @@ if there is no input minimum, the module will error
 local items = rolimons:getItemsWorthMoreThan(100000) -- gets items worth more than 100k rap
 print(#items) --> outputs however many are worth more than that
 ```
+
+# rolimons:getItemsWorthLessThan(minimum)
+searches for (and returns) items with a rap that is less than the input 'maximum'
+
+if there is no input maximum, the module will error
+```luau
+local items = rolimons:getItemsWorthLessThan(100000) -- gets items worth less than 100k rap
+print(#items) --> outputs however many are worth more than that
+```
