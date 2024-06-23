@@ -77,7 +77,6 @@ end
 
 function rolimons:getMostValuableItems(limit: number?): {{id: number, name: string, abbreviation: string, rap: number}}
 	limit = limit or 10
-	assert(limit <= 100, "'limit' cannot be larger than 100")
 	
 	if not rolimons.updated then
 		rolimons:getItemsAsync()
