@@ -1,6 +1,9 @@
 # Rolimons-Lua
 Roblox module for interacting with limiteds thru rolimons.com
 
+# Info
+[GitHub](https://github.com/6ce/Rolimons-Lua) | [Documentation](https://github.com/6ce/Rolimons-Lua/blob/main/DOCS.md)
+
 # Usage
 ```luau
 local rolimons = require(path.to.module) -- path to the rolimons module
