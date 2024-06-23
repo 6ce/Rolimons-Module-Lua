@@ -144,3 +144,6 @@ Viscount of the Federation - 408188 rap
 Tattletale - 407597 rap
 ```
 </details>
+
+# Disclaimer
+Yes I know this was made better and more efficiently (here)[https://github.com/Accutrix/Rolimons]. This was just practice.
