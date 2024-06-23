@@ -2,14 +2,14 @@
 - [item formatting](#item_data-format)
 - [rolimons:getItemsAsync()](#rolimonsgetitemsasync)
 - [rolimons:getItems()](#rolimonsgetitems)
-- [rolimons:getItemByProperty()](#rolimonsgetitemsbyproperty)
+- [rolimons:getItemByProperty()](##rolimonsgetitembypropertypropertyname-propertyvalue)
 - [rolimons:getMostValuableItems()](#rolimonsgetmostvaluableitems)
 - [rolimons:getItemsWorthMoreThan()](#rolimonsgetitemsworthmorethan)
 - [rolimons:getItemsWorthLessThan()](#rolimonsgetitemsworthlessthan)
-- [rolimons:getItemsWorth()](#rolimonsgetitemsworth)
-- [rolimons:getItemByAbbreviation()](#rolimonsgetitembyabbreviation)
-- [rolimons:getItemById()](#rolimonsgetitembyid)
-- [rolimons:getItemByName()](#rolimonsgetitembyname)
+- [rolimons:getItemsWorth()](#rolimonsgetitemsworthrap)
+- [rolimons:getItemByAbbreviation()](#rolimonsgetitembyabbreviationabbreviation)
+- [rolimons:getItemById()](#rolimonsgetitembyidid)
+- [rolimons:getItemByName()](#rolimonsgetitembynamename)
 
 # 'item_data' format
 each item (limited) is formatted like so:
